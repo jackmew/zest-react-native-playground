@@ -10,9 +10,9 @@ const Header = (props) => {
 
     return (
         <View style={container}>
-            <Image style={image} source={require('../../assets/icons/Browsing_category.png')} />
+            <Image style={image} source={require('../../../assets/icons/Browsing_category.png')} />
             <HeaderTab />
-            <Image style={image} source={require('../../assets/icons/Browsing_search.png')} />
+            <Image style={image} source={require('../../../assets/icons/Browsing_search.png')} />
         </View>
     );
 };

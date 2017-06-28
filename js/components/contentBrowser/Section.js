@@ -7,7 +7,7 @@ const Section = ({ header, height, children }) => {
     const heightObj = { height };
     return (
         <View style={[styles.container, heightObj]}>
-            <Text style={styles.header}>{header}<Image style={{ marginLeft: 8 }} source={require('../../assets/icons/Browsing_arrow.png')} /></Text>
+            <Text style={styles.header}>{header}<Image style={{ marginLeft: 8 }} source={require('../../../assets/icons/Browsing_arrow.png')} /></Text>
             <View style={styles.cardContainer}>{children}</View>
         </View>
     );
