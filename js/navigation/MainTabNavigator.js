@@ -37,16 +37,16 @@ export default TabNavigator(
         let imgEl;
         switch (routeName) {
           case 'ContentBrowser':
-            imgEl = <Image source={require('../assets/icons/tab_browsing.png')} />;
+            imgEl = <Image source={require('../../assets/icons/tab_browsing.png')} />;
             break;
           case 'Home':
-            imgEl = <Image source={require('../assets/icons/tab_item.png')} />;
+            imgEl = <Image source={require('../../assets/icons/tab_item.png')} />;
             break;
           case 'Links':
-            imgEl = <Image source={require('../assets/icons/tab_profile.png')} />;
+            imgEl = <Image source={require('../../assets/icons/tab_profile.png')} />;
             break;
           case 'Settings':
-            imgEl = <Image source={require('../assets/icons/tab_more.png')} />;
+            imgEl = <Image source={require('../../assets/icons/tab_more.png')} />;
             break;
         }
         return imgEl;

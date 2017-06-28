@@ -7,7 +7,7 @@ export default class HomeScreen extends React.Component {
     drawerLabel: 'Home',
     drawerIcon: ({ tintColor }) => (
       <Image
-        source={require('../assets/icons/tab_browsing.png')}
+        source={require('zestPlayground/assets/icons/tab_browsing.png')}
         style={[styles.icon, { tintColor }]}
       />
     ),

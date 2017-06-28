@@ -9,7 +9,7 @@ export default class FontAwesomeScreen extends React.Component {
     drawerLabel: 'Notifications',
     drawerIcon: ({ tintColor }) => (
       <Image
-        source={require('../assets/icons/tab_item.png')}
+        source={require('zestPlayground/assets/icons/tab_item.png')}
         style={[styles.icon, { tintColor }]}
       />
     ),
