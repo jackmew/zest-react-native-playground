@@ -6,7 +6,7 @@ import Header from '../components/Header';
 
 export default class FontAwesomeScreen extends React.Component {
   static navigationOptions = {
-    drawerLabel: 'Notifications',
+    drawerLabel: 'FontAwesome',
     drawerIcon: ({ tintColor }) => (
       <Image
         source={require('zestPlayground/assets/icons/tab_item.png')}
