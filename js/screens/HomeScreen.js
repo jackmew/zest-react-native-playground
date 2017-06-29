@@ -1,15 +1,13 @@
 import React from 'react';
-import { StyleSheet, Image, Button, View } from 'react-native';
+import { StyleSheet, Text, Button, View } from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import Header from '../components/Header';
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
     drawerLabel: 'Home',
     drawerIcon: ({ tintColor }) => (
-      <Image
-        source={require('zestPlayground/assets/icons/tab_browsing.png')}
-        style={[styles.icon, { tintColor }]}
-      />
+        <Icon name="home" size={25} color={tintColor} />
     ),
   };
   _onPress() {
@@ -20,6 +18,9 @@ export default class HomeScreen extends React.Component {
     return (
       <View>
         <Header title='Zest Playground' navigation={this.props.navigation} />
+        <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
+          <Text>第一個頁面</Text>
+        </View>
         <Button
           onPress={() => this._onPress()}
           title="Go to FontAwesome"
