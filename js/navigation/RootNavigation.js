@@ -5,6 +5,8 @@ import HomeScreen from '../screens/HomeScreen';
 import VectorIconsStackNavigtor from './VectorIconsStackNavigtor';
 import ScrollViewStackNavigator from './ScrollViewStackNavigator';
 import VideoPlayStackNavigator from './VideoPlayStackNavigator';
+import AnimationStackNavigator from './AnimationStackNavigator';
+import ReduxLearnStackNavigator from './ReduxLearnStackNavigator';
 
 const RootStackNavigator = DrawerNavigator({
   Home: {
@@ -18,6 +20,12 @@ const RootStackNavigator = DrawerNavigator({
   },
   VideoPlay: {
     screen: VideoPlayStackNavigator
+  },
+  Animation: {
+    screen: AnimationStackNavigator
+  },
+  ReduxLearn: {
+    screen: ReduxLearnStackNavigator
   }
 });
 /*
