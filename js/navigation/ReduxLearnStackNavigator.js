@@ -4,8 +4,8 @@ import { StackNavigator } from 'react-navigation';
 import Header from '../components/Header';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-import ReduxTodoScreen from '../screens/reduxLearn/ReduxTodoScreen';
 import ReduxCounterScreen from '../screens/reduxLearn/ReduxCounterScreen';
+import ReduxTodoScreen from '../screens/reduxLearn/ReduxTodoScreen';
 
 class ReduxLearnHome extends React.Component {
   static navigationOptions = {

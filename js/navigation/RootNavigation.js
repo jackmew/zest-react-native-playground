@@ -8,9 +8,12 @@ import VideoPlayStackNavigator from './VideoPlayStackNavigator';
 import AnimationStackNavigator from './AnimationStackNavigator';
 import ReduxLearnStackNavigator from './ReduxLearnStackNavigator';
 
+import ReduxCounterScreen from '../screens/reduxLearn/ReduxCounterScreen';
+
 const RootStackNavigator = DrawerNavigator({
   Home: {
-    screen: HomeScreen,
+    // screen: HomeScreen,
+    screen: ReduxCounterScreen
   },
   VectorIcons: {
     screen: VectorIconsStackNavigtor,
