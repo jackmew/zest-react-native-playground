@@ -13,9 +13,9 @@ import ReduxTodoScreen from '../screens/reduxLearn/ReduxTodoScreen';
 
 const RootStackNavigator = DrawerNavigator({
   Home: {
-    // screen: HomeScreen,
+    screen: HomeScreen,
     // screen: ReduxCounterScreen
-    screen: ReduxTodoScreen
+    // screen: ReduxTodoScreen
   },
   VectorIcons: {
     screen: VectorIconsStackNavigtor,
