@@ -18,6 +18,10 @@
 *react-native-video-player*
 ## Video Player - 測試使用Video player
 ## Video Jump Subtitle - 測試可以直接跳到不同的影片時間點
+
+# Animation  
+[React-Native Animated](http://www.alloyteam.com/2016/01/reactnative-animated/)  
+[React-Native Animation](https://medium.com/react-native-training/react-native-animations-using-the-animated-api-ebe8e0669fae)  
   
 # Install
 npm install  

@@ -4,6 +4,11 @@
     2. Animated.Text
     3. Animated.Image
     4. Custom your own
+
+    new Animated.Value()
+    Animated.timing()
+    <Animated.View />
+
 */
 
 import React from 'react';
@@ -46,8 +51,6 @@ export default class FadeInScreen extends React.Component {
   };
   render() {
     return (
-    //   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-    // <View style={[styles.container]}>
      <View style={[styles.container, { flex: 1 }]}>
         <FadeInView style={{ width: 250, height: 50, backgroundColor: 'powderblue' }}>
           <Text style={{ fontSize: 28, textAlign: 'center', margin: 10 }}>Fading in</Text>
