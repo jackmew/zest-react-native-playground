@@ -8,12 +8,12 @@ import VideoPlayStackNavigator from './VideoPlayStackNavigator';
 import AnimationStackNavigator from './AnimationStackNavigator';
 import ReduxLearnStackNavigator from './ReduxLearnStackNavigator';
 
-import ParallelScreen from '../screens/animation/ParallelScreen';
+import PanResponderScreen from '../screens/animation/PanResponderScreen';
 
 const RootStackNavigator = DrawerNavigator({
   Home: {
     screen: HomeScreen,
-    // screen: ParallelScreen
+    // screen: PanResponderScreen
   },
   VectorIcons: {
     screen: VectorIconsStackNavigtor,
