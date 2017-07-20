@@ -13,7 +13,7 @@ import TimingMultipleScreen from '../screens/animation/TimingMultipleScreen';
 import StaggerScreen from '../screens/animation/StaggerScreen';
 import SequenceScreen from '../screens/animation/SequenceScreen';
 import ParallelScreen from '../screens/animation/ParallelScreen';
-
+import PanResponderScreen from '../screens/animation/PanResponderScreen';
 
 class AnimationHome extends React.Component {
   static navigationOptions = {
@@ -38,6 +38,7 @@ class AnimationHome extends React.Component {
           <Button title='Stagger' onPress={() => navigation.navigate('Stagger')} />
           <Button title='Sequence' onPress={() => navigation.navigate('Sequence')} />
           <Button title='Parallel' onPress={() => navigation.navigate('Parallel')} />
+          <Button title='PanResponder' onPress={() => navigation.navigate('PanResponder')} />
         </View>
       </View>
     );
@@ -54,6 +55,7 @@ const VectorIconsStackNavigator = StackNavigator({
     TimingMultiple: { screen: TimingMultipleScreen },
     Stagger: { screen: StaggerScreen },
     Sequence: { screen: SequenceScreen },
-    Parallel: { screen: ParallelScreen }
+    Parallel: { screen: ParallelScreen },
+    PanResponder: { screen: PanResponderScreen }
 });
 export default VectorIconsStackNavigator;
