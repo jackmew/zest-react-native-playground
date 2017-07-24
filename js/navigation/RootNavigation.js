@@ -7,6 +7,7 @@ import ScrollViewStackNavigator from './ScrollViewStackNavigator';
 import VideoPlayStackNavigator from './VideoPlayStackNavigator';
 import AnimationStackNavigator from './AnimationStackNavigator';
 import ReduxLearnStackNavigator from './ReduxLearnStackNavigator';
+import ArtStackNavigator from './ArtStackNavigator';
 
 import PanResponderScreen from '../screens/animation/PanResponderScreen';
 
@@ -29,6 +30,9 @@ const RootStackNavigator = DrawerNavigator({
   },
   ReduxLearn: {
     screen: ReduxLearnStackNavigator
+  },
+  Art: {
+    screen: ArtStackNavigator
   }
 });
 /*
